@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>To-Do Application</title>
+  </head>
+  <body>
+    <main class="todo-app">
+      <header>
+        <h1>To-Do Application</h1>
+        <p>Plan your day with simple task tracking.</p>
+      </header>
+
+      <div class="search-cpt">
+        <input type="text" id="inputBar" placeholder="Enter your task" />
+        <button id="addBtn" type="button">Add Task</button>
+      </div>
+
+      <article>
+        <p id="emptyState">No tasks yet. Add your first task.</p>
+        <ul id="tasks"></ul>
+      </article>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
