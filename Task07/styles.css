@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #f5f6fb;
+  color: #222;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.hero-section {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.chat-area {
+  height: 380px;
+  overflow-y: auto;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 12px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.msg {
+  max-width: 75%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  line-height: 1.4;
+}
+
+.msg.user {
+  align-self: flex-end;
+  background: #daf1ff;
+}
+
+.msg.bot {
+  align-self: flex-start;
+  background: #ececec;
+}
+
+.input {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+#inputBar {
+  flex: 1;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#sendBtn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  background: #2d6cdf;
+  color: #fff;
+  cursor: pointer;
+}
+
+#sendBtn:hover {
+  background: #2457b2;
+}
