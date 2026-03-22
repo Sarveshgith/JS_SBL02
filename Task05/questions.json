@@ -1,0 +1,32 @@
+[
+	{
+		"question": "Which method adds an element to the end of an array in JavaScript?",
+		"options": ["push()", "pop()", "shift()", "concat()"],
+		"answer": "push()"
+	},
+	{
+		"question": "Which keyword is used to declare a block-scoped variable?",
+		"options": ["var", "let", "const", "Both let and const"],
+		"answer": "Both let and const"
+	},
+	{
+		"question": "What does DOM stand for?",
+		"options": [
+			"Document Object Model",
+			"Data Object Management",
+			"Digital Ordinance Model",
+			"Document Orientation Mode"
+		],
+		"answer": "Document Object Model"
+	},
+	{
+		"question": "Which event fires when a user clicks an HTML element?",
+		"options": ["onchange", "onmouseover", "onclick", "onload"],
+		"answer": "onclick"
+	},
+	{
+		"question": "What is the result type of JSON.parse()?",
+		"options": ["String", "Object/Array", "Boolean", "Number"],
+		"answer": "Object/Array"
+	}
+]

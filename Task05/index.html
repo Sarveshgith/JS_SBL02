@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <main class="quiz-app">
+      <header>
+        <h1>Quiz App</h1>
+        <p>Test your basics with a short quiz.</p>
+      </header>
+
+      <section id="startScreen" class="panel active">
+        <button id="startBtn" type="button">Start Quiz</button>
+      </section>
+
+      <section id="quizScreen" class="panel">
+        <p id="progressBar"></p>
+        <h2 id="questionBar"></h2>
+        <div id="options"></div>
+      </section>
+
+      <section id="resultScreen" class="panel">
+        <h2>Result</h2>
+        <p id="resultText"></p>
+        <button id="restartBtn" type="button">Restart</button>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
