@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Single Page Application</title>
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- Navigation -->
+      <nav class="navbar">
+        <div class="nav-brand">SPA App</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main Content Area -->
+      <main class="main-content">
+        <!-- Home View -->
+        <section id="home" class="view active">
+          <h1>Home</h1>
+          <p>Welcome to this Single Page Application with hash-based routing.</p>
+          <p>This page demonstrates client-side navigation without page reloads.</p>
+        </section>
+
+        <!-- About View -->
+        <section id="about" class="view">
+          <h1>About</h1>
+          <p>This SPA uses hash-based routing to navigate between different views.</p>
+          <p>Each section is dynamically displayed based on the URL hash.</p>
+        </section>
+
+        <!-- Services View -->
+        <section id="services" class="view">
+          <h1>Services</h1>
+          <p>Here are our services:</p>
+          <ul>
+            <li>Web Development</li>
+            <li>Frontend Design</li>
+            <li>Performance Optimization</li>
+            <li>Technical Support</li>
+          </ul>
+        </section>
+
+        <!-- Contact View -->
+        <section id="contact" class="view">
+          <h1>Contact</h1>
+          <p>Contact us at:</p>
+          <p>Email: info@example.com</p>
+          <p>Phone: (555) 123-4567</p>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>&copy; 2026 Single Page Application. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
